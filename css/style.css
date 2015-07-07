@@ -1,0 +1,144 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	padding-bottom:80px;
+}
+#container {
+	background-color:#eee;
+	margin-top:25px;
+	padding-bottom:20px;
+}
+h1 {
+	margin-bottom:10px;
+}
+#logo {
+	margin:10px;
+}
+.step h4 {
+	color:white;
+	background-color:#002864;
+	padding:10px;
+	cursor:pointer;
+}
+.step .drop-down h4 {
+	background-color:#eee;
+	color:black;
+	padding:0px;
+	cursor:default;
+}
+#step-1-error {
+	margin-bottom:0px;
+	margin-top:10px;
+}
+
+.disabled h4, input.disabled {
+	cursor:default;
+	background-color:#777777;
+}
+.disabled .drop-down {
+	display:none;
+}
+form {
+	position:relative;
+}
+.step {
+	/*border-top:1px solid black;*/
+}
+.drop-down {
+	/*border-top:1px solid black;*/
+	padding-top:10px;
+	padding-bottom:10px;
+	position:relative;
+}
+.drop-down .value {
+	//display:inline-block;
+	margin-right:10px;
+}
+.summary {
+	position:relative;
+	box-shadow:3px 3px 14px #000;
+	height:auto;
+	padding:10px;
+}
+.summary-closed {
+	overflow:hidden;
+	height:0px;
+	padding:0px;
+	box-shadow:none;
+}
+label {
+	margin-top:10px;
+	display:block;
+	cursor:pointer;
+}
+label[for="email"] {
+	margin-top:10px;
+	display:block;
+}
+input[value="Next"], input[value="Update"] {
+	margin-left:10px;
+}
+input[stepid="1"] {
+	display:block;
+	margin-top:20px;
+	margin-left:0px;
+}
+table {
+	width:100%;
+	margin-bottom:10px;
+}
+tr {
+	border-bottom:1px solid black;
+}
+th {
+	width:50%;
+}
+td, #total th {
+	padding-top:10px;
+}
+#step-6 input[type="text"] {
+	width:30px;
+	display:inline-block;
+	margin-left:7px;
+	margin-bottom:10px;
+}
+.hide {
+	display:none;
+}
+.gravel {
+	display:inline-block;
+	width:50px;
+	height:50px;
+	padding-left:3px;
+	padding-top:3px;
+	cursor:pointer;
+}
+.gravel input[type="radio"] {
+	color:#186094;
+	//-webkit-appearance: none;
+	width:20px;
+	height:20px;
+	background-color:#ddd;
+	border-radius:20px;
+	border:1px solid;
+	border-color:#333;
+}
+#step-5 img {
+	width:45px;
+	height:45px;
+	display:list-item;
+}
+.alert {
+	margin-top:10px;
+}
+.footer {
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	width:100%;
+	text-align:center;
+	background-color:#002864;
+	color:white;
+	padding-top:5px;
+	padding-bottom:5px;
+}
